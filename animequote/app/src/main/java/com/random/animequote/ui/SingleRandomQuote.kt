@@ -47,6 +47,9 @@ class SingleRandomQuote : AppCompatActivity() {
         val db = DBHelper(this, null)
 
 
+//        db.delTable()
+
+
         binding.showSavedQuote.setOnClickListener{
             val i = Intent(applicationContext, RecyclerActivity::class.java)
             startActivity(i)
